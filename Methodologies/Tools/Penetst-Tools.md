@@ -4,302 +4,344 @@
 
 ### 1.1 Information Gathering<br />
 
-1. **Google Dorking**: Use advanced search operators to find sensitive information.
-    - ***Tools:***&emsp; [Google Search](#), [Shodan](#), , [Censys](#) , [Bing Search](#) , [DuckDuckGo](#)<br /><br />
+- **Google Dorking**: Use advanced search operators to find sensitive information.
+    - ***Tools:*** &emsp;|&emsp; [Google Search](#) &emsp;|&emsp; [Shodan](#) &emsp;|&emsp; [Censys](#) &emsp;|&emsp; [Bing Search](#) &emsp;|&emsp; [DuckDuckGo](#) &emsp;|&emsp; [Google](https://www.google.com/) &emsp;|&emsp; [Google Advanced Search](https://www.google.com/advanced_search) &emsp;|&emsp;  [Google Search Guide](http://www.googleguide.com/print/adv_op_ref.pdf)<br />
 
-2. **WHOIS Lookup**: Gather domain registration details.
-    - ***Tools:***&emsp; [WHOIS](#), [Domaintools](#), , [WhoisXML API](#) , [ARIN WHOIS](#) , [RIPE NCC](#)<br /><br />
+- **WHOIS Lookup**: Gather domain registration details.
+    - ***Tools:*** &emsp;|&emsp; [WHOIS](#) &emsp;|&emsp;  [Domaintools](#) &emsp;|&emsp;  [WhoisXML API](#) &emsp;|&emsp;  [ARIN WHOIS](#) &emsp;|&emsp;  [RIPE NCC](#) &emsp;|&emsp;  [Domain Dossier](https://centralops.net/co/) &emsp;|&emsp;  [Whois Lookup](https://www.whois.com/)<br />
 
-3. **Reverse WHOIS Lookup**: Find domains associated with a specific registrant.
-    - ***Tools:***&emsp; [WhoisXML API](#), [DomainTools](#), , [ReverseWHOIS](#) , [Robtex](#) , [SecurityTrails](#)<br /><br />
+- **Reverse WHOIS Lookup**: Find domains associated with a specific registrant.
+    - ***Tools:*** &emsp;|&emsp; [WhoisXML API](#) &emsp;|&emsp;  [DomainTools](#) &emsp;|&emsp;  [ReverseWHOIS](#) &emsp;|&emsp;  [Robtex](#) &emsp;|&emsp;  [SecurityTrails](#) &emsp;|&emsp;  [Reverse WHOIS Lookup](https://whois.domaintools.com/)<br />
 
-4. **DNS Enumeration**: Identify DNS records like A, MX, NS, TXT, SOA.
-    - ***Tools:***&emsp; [dnsenum](#), [dnsrecon](#), , [dnspython](#) , [dnsutils](#) , [fierce](#) , [dnsmap](#) , [dnsx](#) , [sublist3r](#) , [theHarvester](#) , [crt.sh](#)<br /><br />
+- **DNS Enumeration**: Identify DNS records like A &emsp;|&emsp;  MX &emsp;|&emsp;  NS &emsp;|&emsp;  TXT &emsp;|&emsp;  SOA.
+    - ***Tools:*** &emsp;|&emsp; [dnsenum](#) &emsp;|&emsp;  [dnsrecon](#) &emsp;|&emsp;  [dnspython](#) &emsp;|&emsp;  [dnsutils](#) &emsp;|&emsp;  [fierce](#) &emsp;|&emsp;  [dnsmap](#) &emsp;|&emsp;  [dnsx](#) &emsp;|&emsp;  [sublist3r](#) &emsp;|&emsp;  [theHarvester](#) &emsp;|&emsp;  [crt.sh](#) &emsp;|&emsp;  [DNSlytics](https://dnslytics.com/reverse-ip) &emsp;|&emsp;  [Pentest-Tools Subdomain Finder](https://pentest-tools.com/information-gathering/find-subdomains-of-domain#) &emsp;|&emsp;  [Spyse](https://spyse.com/) &emsp;|&emsp;  [Amass](https://github.com/OWASP/Amass) &emsp;|&emsp;  [Subfinder](https://github.com/projectdiscovery/subfinder) &emsp;|&emsp;  [Assetfinder](https://github.com/tomnomnom/assetfinder) &emsp;|&emsp;  [httprobe](https://github.com/tomnomnom/httprobe)<br />
 
-5. **IP Geolocation**: Find the geographical location of IP addresses.
-    - ***Tools:***&emsp; [ipinfo](#), [ipapi](#), , [geoip](#) , [maxmind](#) , [ipstack](#) , [IPLocation.net](#) , [ipgeolocation.io](#) , [GeoIP2](#) , [IPinfo](#) , [DB-IP](#)<br /><br />
+- **IP Geolocation**: Find the geographical location of IP addresses.
+    - ***Tools:*** &emsp;|&emsp; [ipinfo](#) &emsp;|&emsp;  [ipapi](#) &emsp;|&emsp;  [geoip](#) &emsp;|&emsp;  [maxmind](#) &emsp;|&emsp;  [ipstack](#) &emsp;|&emsp;  [IPLocation.net](#) &emsp;|&emsp;  [ipgeolocation.io](#) &emsp;|&emsp;  [GeoIP2](#) &emsp;|&emsp;  [IPinfo](#) &emsp;|&emsp;  [DB-IP](#) &emsp;|&emsp;  [GeoGuessr](https://www.geoguessr.com) &emsp;|&emsp;  [GeoGuessr - The Top Tips &emsp;|&emsp;  Tricks and Techniques](https://somerandomstuff1.wordpress.com/2019/02/08/geoguessr-the-top-tips-tricks-and-techniques/)<br />
 
-6. **Public Records Search**: Access public records related to the target.
-    - ***Tools:***&emsp; [Pipl](#), [Spokeo](#), , [PeopleFinder](#) , [Intelius](#) , [LinkedIn](#) , [Facebook](#) , [Whitepages](#) , [PublicRecords.com](#) , [ZabaSearch](#) , [BeenVerified](#)<br /><br />
+- **Public Records Search**: Access public records related to the target.
+    - ***Tools:*** &emsp;|&emsp; [Pipl](#) &emsp;|&emsp;  [Spokeo](#) &emsp;|&emsp;  [PeopleFinder](#) &emsp;|&emsp;  [Intelius](#) &emsp;|&emsp;  [LinkedIn](#) &emsp;|&emsp;  [Facebook](#) &emsp;|&emsp;  [Whitepages](#) &emsp;|&emsp;  [PublicRecords.com](#) &emsp;|&emsp;  [ZabaSearch](#) &emsp;|&emsp;  [BeenVerified](#) &emsp;|&emsp;  [WhitePages](https://www.whitepages.com/) &emsp;|&emsp;  [TruePeopleSearch](https://www.truepeoplesearch.com/) &emsp;|&emsp;  [FastPeopleSearch](https://www.fastpeoplesearch.com/) &emsp;|&emsp;  [FastBackgroundCheck](https://www.fastbackgroundcheck.com/) &emsp;|&emsp;  [411](https://www.411.com/) &emsp;|&emsp;  [Spokeo](https://www.spokeo.com/) &emsp;|&emsp;  [That'sThem](https://thatsthem.com/) &emsp;|&emsp;  [Voter Records](https://www.voterrecords.com)<br />
 
-7. **Search Engine Queries**: Use search engines to gather information.
-    - ***Tools:***&emsp; [Google](#), [Bing](#), , [DuckDuckGo](#) , [Yandex](#) , [Startpage](#) , [Searx](#) , [Blekko](#) , [Qwant](#) , [MetaCrawler](#) , [WebCrawler](#)<br /><br />
+- **Search Engine Queries**: Use search engines to gather information.
+    - ***Tools:*** &emsp;|&emsp; [Google](#) &emsp;|&emsp;  [Bing](#) &emsp;|&emsp;  [DuckDuckGo](#) &emsp;|&emsp;  [Yandex](#) &emsp;|&emsp;  [Startpage](#) &emsp;|&emsp;  [Searx](#) &emsp;|&emsp;  [Blekko](#) &emsp;|&emsp;  [Qwant](#) &emsp;|&emsp;  [MetaCrawler](#) &emsp;|&emsp;  [WebCrawler](#) &emsp;|&emsp;  [Bing](https://www.bing.com/) &emsp;|&emsp;  [Bing Search Guide](https://www.bruceclay.com/blog/bing-google-advanced-search-operators/) &emsp;|&emsp;  [DuckDuckGo](https://duckduckgo.com/) &emsp;|&emsp;  [DuckDuckGo Search Guide](https://help.duckduckgo.com/duckduckgo-help-pages/results/syntax/) &emsp;|&emsp;  [Yandex](https://yandex.com/) &emsp;|&emsp;  [Baidu](http://www.baidu.com/)<br />
 
-8. **Breach Data Search**: Check for data breaches with services like Have I Been Pwned.
-    - ***Tools:***&emsp; [Have I Been Pwned](#), [BreachDirectory](#), , [DeHashed](#) , [Leaks.ovh](#) , [SpyCloud](#) , [Pwned Passwords](#) , [BreachAlarm](#) , [Hacked Emails](#) , [HackNotice](#) , [BreachAuth](#)<br /><br />
+- **Breach Data Search**: Check for data breaches with services like Have I Been Pwned.
+    - ***Tools:*** &emsp;|&emsp; [Have I Been Pwned](#) &emsp;|&emsp;  [BreachDirectory](#) &emsp;|&emsp;  [DeHashed](#) &emsp;|&emsp;  [Leaks.ovh](#) &emsp;|&emsp;  [SpyCloud](#) &emsp;|&emsp;  [Pwned Passwords](#) &emsp;|&emsp;  [BreachAlarm](#) &emsp;|&emsp;  [Hacked Emails](#) &emsp;|&emsp;  [HackNotice](#) &emsp;|&emsp;  [BreachAuth](#) &emsp;|&emsp;  [Dehashed](https://dehashed.com/) &emsp;|&emsp;  [WeLeakInfo](https://weleakinfo.to/v2/) &emsp;|&emsp;  [LeakCheck](https://leakcheck.io/) &emsp;|&emsp;  [SnusBase](https://snusbase.com/) &emsp;|&emsp;  [Scylla.sh](https://scylla.sh/) &emsp;|&emsp;  [HaveIBeenPwned](https://haveibeenpwned.com/)<br />
 
-9. **Social Engineering Techniques**: Use social tactics to gather information.
-    - ***Tools:***&emsp; [Social Engineering Toolkit](#), [Recon-ng](#), , [Maltego](#) , [OSINT Framework](#) , [Hunter.io](#) , [Email Hunter](#) , [EmailPermutator](#) , [LinkedIn](#) , [Facebook](#) , [Twitter](#)<br /><br />
+- **Social Engineering Techniques**: Use social tactics to gather information.
+    - ***Tools:*** &emsp;|&emsp; [Social Engineering Toolkit](#) &emsp;|&emsp;  [Recon-ng](#) &emsp;|&emsp;  [Maltego](#) &emsp;|&emsp;  [OSINT Framework](#) &emsp;|&emsp;  [Hunter.io](#) &emsp;|&emsp;  [Email Hunter](#) &emsp;|&emsp;  [EmailPermutator](#) &emsp;|&emsp;  [LinkedIn](#) &emsp;|&emsp;  [Facebook](#) &emsp;|&emsp;  [Twitter](#) &emsp;|&emsp;  [Creating an Effective Sock Puppet for OSINT Investigations – Introduction](https://web.archive.org/web/20210125191016/https://jakecreps.com/2018/11/02/sock-puppets/) &emsp;|&emsp;  [The Art Of The Sock](https://www.secjuice.com/the-art-of-the-sock-osint-humint/) &emsp;|&emsp;  [Reddit - My process for setting up anonymous sockpuppet accounts](https://www.reddit.com/r/OSINT/comments/dp70jr/my_process_for_setting_up_anonymous_sockpuppet/)<br />
 
-10. **Publicly Available APIs**: Analyze APIs for exposed information.
-    - ***Tools:***&emsp; [Postman](#), [Insomnia](#), [Swagger](#), [APIsec](#), [RapidAPI](#), [Shodan API](#), [Censys API](#), [Google Maps API](#), [IPinfo API](#), [VirusTotal API](#)<br /><br />
+- **Publicly Available APIs**: Analyze APIs for exposed information.
+    - ***Tools:*** &emsp;|&emsp; [Postman](#) &emsp;|&emsp;  [Insomnia](#) &emsp;|&emsp;  [Swagger](#) &emsp;|&emsp;  [APIsec](#) &emsp;|&emsp;  [RapidAPI](#) &emsp;|&emsp;  [Shodan API](#) &emsp;|&emsp;  [Censys API](#) &emsp;|&emsp;  [Google Maps API](#) &emsp;|&emsp;  [IPinfo API](#) &emsp;|&emsp;  [VirusTotal API](#) &emsp;|&emsp;  [Clearbit Connect](https://chrome.google.com/webstore/detail/clearbit-connect-supercha/pmnhcgfcafcnkbengdcanjablaabjplo?hl=en)<br />
 
-11. **Certificate Transparency Logs**: Monitor public logs for SSL certificates.
-    - ***Tools:***&emsp; [crt.sh](#), [CertSpotter](#), [Google Certificate Transparency](#), [SSL Labs](#), [PassiveTotal](#), [CertStream](#), [Certificate Transparency Logs](#), [Symantec CT](#), [Cloudflare CT Logs](#), [HackerOne CT Logs](#)<br /><br />
+- **Certificate Transparency Logs**: Monitor public logs for SSL certificates.
+    - ***Tools:*** &emsp;|&emsp; [crt.sh](https://crt.sh/) &emsp;|&emsp;  [CertSpotter](#) &emsp;|&emsp;  [Google Certificate Transparency](#) &emsp;|&emsp;  [SSL Labs](#) &emsp;|&emsp;  [PassiveTotal](#) &emsp;|&emsp;  [CertStream](#) &emsp;|&emsp;  [Certificate Transparency Logs](#) &emsp;|&emsp;  [Symantec CT](#) &emsp;|&emsp;  [Cloudflare CT Logs](#) &emsp;|&emsp;  [HackerOne CT Logs](#)<br />
 
-12. **Domain History Analysis**: Use tools to analyze historical domain data.
-    - ***Tools:***&emsp; [DomainTools](#),, [WhoisXML API](#), [Wayback Machine](#), [Archive.org](#), [DNS History](#), [Historical WHOIS](#), [Netcraft](#), [Robtex](#), [SecurityTrails](#), [BuiltWith](#)
+- **Domain History Analysis**: Use tools to analyze historical domain data.
+    - ***Tools:*** &emsp;|&emsp; [DomainTools](#), &emsp;|&emsp;  [WhoisXML API](#) &emsp;|&emsp;  [Wayback Machine](#) &emsp;|&emsp;  [Archive.org](#) &emsp;|&emsp;  [DNS History](#) &emsp;|&emsp;  [Historical WHOIS](#) &emsp;|&emsp;  [Netcraft](#) &emsp;|&emsp;  [Robtex](#) &emsp;|&emsp;  [SecurityTrails](#) &emsp;|&emsp;  [BuiltWith](#) &emsp;|&emsp;  [BuiltWith](https://builtwith.com/) &emsp;|&emsp;  [View DNS](https://viewdns.info/)<br />
 
-### 1.2 Subdomain and Domain Discovery<br /><br />
+### 1.2 Subdomain and Domain Discovery<br />
 
-1. **Subdomain Enumeration**: Discover subdomains using tools like Sublist3r or Amass.
-    - ***Tools:***&emsp; [Sublist3r](#), [Amass](#),, [Subfinder](#) , [Findomain](#) , [Subjack](#) , [Assetfinder](#) , [Knockpy](#) , [Subzy](#) , [Subdomainizer](#) , [CRT.sh](#)<br /><br />
+- **Subdomain Enumeration**: Discover subdomains using tools like Sublist3r or Amass.
+    - ***Tools:*** &emsp;|&emsp; [Sublist3r](#) &emsp;|&emsp;  [Amass](#), &emsp;|&emsp;  [Subfinder](#) &emsp;|&emsp;  [Findomain](#) &emsp;|&emsp;  [Subjack](#) &emsp;|&emsp;  [Assetfinder](#) &emsp;|&emsp;  [Knockpy](#) &emsp;|&emsp;  [Subzy](#) &emsp;|&emsp;  [Subdomainizer](#) &emsp;|&emsp;  [CRT.sh](#) &emsp;|&emsp;  [Pentest-Tools Subdomain Finder](https://pentest-tools.com/information-gathering/find-subdomains-of-domain#) &emsp;|&emsp;  [Subfinder](https://github.com/projectdiscovery/subfinder) &emsp;|&emsp;  [Assetfinder](https://github.com/tomnomnom/assetfinder)<br />
 
-2. **Reverse IP Lookup**: Identify other domains hosted on the same IP.
-    - ***Tools:***&emsp; [Reverse IP Lookup](#), [Robtex](#), , [SecurityTrails](#) , [Shodan](#) , [Censys](#) , [Netcraft](#) , [DNSdumpster](#) , [Spyse](#) , [ThreatMiner](#) , [Webscan](#)<br /><br />
+- **Reverse IP Lookup**: Identify other domains hosted on the same IP.
+    - ***Tools:*** &emsp;|&emsp; [Reverse IP Lookup](#) &emsp;|&emsp;  [Robtex](#) &emsp;|&emsp;  [SecurityTrails](#) &emsp;|&emsp;  [Shodan](#) &emsp;|&emsp;  [Censys](#) &emsp;|&emsp;  [Netcraft](#) &emsp;|&emsp;  [DNSdumpster](#) &emsp;|&emsp;  [Spyse](#) &emsp;|&emsp;  [ThreatMiner](#) &emsp;|&emsp;  [Webscan](#) &emsp;|&emsp;  [DNSlytics](https://dnslytics.com/reverse-ip) &emsp;|&emsp;  [View DNS](https://viewdns.info/)<br />
 
-3. **DNS Dumpster Diving**: Extract information about DNS records.
-    - ***Tools:***&emsp; [dnsdumpster](#), [dnsrecon](#), , [dnstracer](#) , [dnsutils](#) , [DNSMap](#) , [Fierce](#) , [Netcraft](#) , [Google DNS](#) , [SecurityTrails](#) , [Shodan](#)<br /><br />
+- **DNS Dumpster Diving**: Extract information about DNS records.
+    - ***Tools:*** &emsp;|&emsp; [dnsdumpster](#) &emsp;|&emsp;  [dnsrecon](#) &emsp;|&emsp;  [dnstracer](#) &emsp;|&emsp;  [dnsutils](#) &emsp;|&emsp;  [DNSMap](#) &emsp;|&emsp;  [Fierce](#) &emsp;|&emsp;  [Netcraft](#) &emsp;|&emsp;  [Google DNS](#) &emsp;|&emsp;  [SecurityTrails](#) &emsp;|&emsp;  [Shodan](#) &emsp;|&emsp;  [DNSDumpster](https://dnsdumpster.com/)<br />
 
-4. **Zone Transfers**: Attempt DNS zone transfers to gather records.
-    - ***Tools:***&emsp; [dig](#), [nslookup](#), , [dnsrecon](#) , [Fierce](#) , [DNSMap](#) , [dnstracer](#) , [dnsscan](#) , [Zone Transfer Scanner](#) , [Recon-ng](#) , [Netcat](#)
+- **Zone Transfers**: Attempt DNS zone transfers to gather records.
+    - ***Tools:*** &emsp;|&emsp; [dig](#) &emsp;|&emsp;  [nslookup](#) &emsp;|&emsp;  [dnsrecon](#) &emsp;|&emsp;  [Fierce](#) &emsp;|&emsp;  [DNSMap](#) &emsp;|&emsp;  [dnstracer](#) &emsp;|&emsp;  [dnsscan](#) &emsp;|&emsp;  [Zone Transfer Scanner](#) &emsp;|&emsp;  [Recon-ng](#) &emsp;|&emsp;  [Netcat](#) &emsp;|&emsp;  [Zone Transfer](https://www.zone-transfer.com/) <br />
 
-### 1.3 Technology and Service Identification<br /><br />
+### 1.3 Technology and Service Identification<br />
 
-1. **Website Footprinting**: Identify technologies, server details, and software versions.
-    - ***Tools:***&emsp; [Wappalyzer](#), [WhatWeb](#), , [BuiltWith](#) , [Netcraft](#) , [Shodan](#) , [Censys](#) , [HTTP Headers](#) , [Wappalyzer](#) , [WhatCMS](#) , [Gau](#)<br /><br />
+- **Website Footprinting**: Identify technologies &emsp;|&emsp;  server details &emsp;|&emsp;  and software versions.
+    - ***Tools:*** &emsp;|&emsp; [Wappalyzer](#) &emsp;|&emsp;  [WhatWeb](#) &emsp;|&emsp;  [Shodan](#) &emsp;|&emsp;  [Censys](#) &emsp;|&emsp;  [HTTP Headers](#) &emsp;|&emsp;  [Wappalyzer](#) &emsp;|&emsp;  [WhatCMS](#) &emsp;|&emsp;  [Gau](#) &emsp;|&emsp;  [BuiltWith](https://builtwith.com/) &emsp;|&emsp;  [Netcraft Site Reports](https://sitelogs.netcraft.com/)<br />
 
-2. **Shodan Search**: Find internet-connected devices and their details.
-    - ***Tools:***&emsp; [Shodan](#), [Censys](#), , [ZoomEye](#) , [BinaryEdge](#) , [Fofa](#) , [Rapid7](#) , [GreyNoise](#) , [Pulsedive](#) , [ThreatQuotient](#) , [RATelnet](#)<br /><br />
+- **Shodan Search**: Find internet-connected devices and their details.
+    - ***Tools:*** &emsp;|&emsp; [Shodan](https://shodan.io) &emsp;|&emsp;  [Censys](#) &emsp;|&emsp;  [ZoomEye](#) &emsp;|&emsp;  [BinaryEdge](#) &emsp;|&emsp;  [Fofa](#) &emsp;|&emsp;  [Rapid7](#) &emsp;|&emsp;  [GreyNoise](#) &emsp;|&emsp;  [Pulsedive](#) &emsp;|&emsp;  [ThreatQuotient](#) &emsp;|&emsp;  [RATelnet](#)<br />
 
-3. **Censys Search**: Identify and analyze devices and systems.
-    - ***Tools:***&emsp; [Censys](#), [Shodan](#), , [ZoomEye](#) , [BinaryEdge](#) , [Fofa](#) , [Rapid7](#) , [GreyNoise](#) , [Pulsedive](#) , [ThreatQuotient](#) , [RATelnet](#)<br /><br />
+- **Censys Search**: Identify and analyze devices and systems.
+    - ***Tools:*** &emsp;|&emsp; [Censys](https://censys.io/) &emsp;|&emsp;  [Shodan](#) &emsp;|&emsp;  [ZoomEye](#) &emsp;|&emsp;  [BinaryEdge](#) &emsp;|&emsp;  [Fofa](#) &emsp;|&emsp;  [Rapid7](#) &emsp;|&emsp;  [GreyNoise](#) &emsp;|&emsp;  [Pulsedive](#) &emsp;|&emsp;  [ThreatQuotient](#) &emsp;|&emsp;  [RATelnet](#)<br />
 
-4. **SSL/TLS Certificate Analysis**: Review certificates for associated domains.
-    - ***Tools:***&emsp; [SSLLabs](#), [CertSpotter](#), , [crt.sh](#) , [SSL Certificate Checker](#) , [Shodan](#) , [Censys](#) , [SecurityTrails](#) , [SSL Labs](#) , [CertStream](#) , [SSL Checker](#)<br /><br />
+- **SSL/TLS Certificate Analysis**: Review certificates for associated domains.
+    - ***Tools:*** &emsp;|&emsp; [testssl](https://github.com/drwetter/testssl.sh) &emsp;|&emsp;  [SSL Labs](https://www.ssllabs.com/ssltest/) &emsp;|&emsp;  [CertSpotter](#) &emsp;|&emsp;  [crt.sh](#) &emsp;|&emsp;  [SSL Certificate Checker](#) &emsp;|&emsp;  [Shodan](#) &emsp;|&emsp;  [Censys](#) &emsp;|&emsp;  [SecurityTrails](#) &emsp;|&emsp;  [SSL Labs](#) &emsp;|&emsp;  [CertStream](#) &emsp;|&emsp;  [SSL Checker](#)<br />
 
-5. **Web Application Framework Identification**: Determine the frameworks used on a website.
-    - ***Tools:***&emsp; [Wappalyzer](#), [WhatWeb](#), , [BuiltWith](#) , [Netcraft](#) , [CMS Detector](#) , [Framework Scanner](#) , [HTTP Headers](#) , [Wappalyzer](#) , [WebTech](#) , [AppDetective](#)<br /><br />
+- **Web Application Framework Identification**: Determine the frameworks used on a website.
+    - ***Tools:*** &emsp;|&emsp; [Wappalyzer](#) &emsp;|&emsp;  [WhatWeb](#) &emsp;|&emsp;  [BuiltWith](#) &emsp;|&emsp;  [Netcraft](#) &emsp;|&emsp;  [CMS Detector](#) &emsp;|&emsp;  [Framework Scanner](#) &emsp;|&emsp;  [HTTP Headers](#) &emsp;|&emsp;  [Wappalyzer](#) &emsp;|&emsp;  [WebTech](#) &emsp;|&emsp;  [AppDetective](#) &emsp;|&emsp;  [BuiltWith](https://builtwith.com/)<br />
 
-6. **Netcraft Site Reports**: Analyze site reports for server details and technologies.
-    - ***Tools:***&emsp; [Netcraft](#), [BuiltWith](#), , [Wappalyzer](#) , [WhatWeb](#) , [Shodan](#) , [Censys](#) , [SecurityTrails](#) , [SSL Labs](#) , [Wayback Machine](#) , [Webscreenshot](#)
+- **Netcraft Site Reports**: Analyze site reports for server details and technologies.
+    - ***Tools:*** &emsp;|&emsp; [Netcraft](#) &emsp;|&emsp;  [BuiltWith](#) &emsp;|&emsp;  [Wappalyzer](#) &emsp;|&emsp;  [WhatWeb](#) &emsp;|&emsp;  [Shodan](#) &emsp;|&emsp;  [Censys](#) &emsp;|&emsp;  [SecurityTrails](#) &emsp;|&emsp;  [SSL Labs](#) &emsp;|&emsp;  [Wayback Machine](#) &emsp;|&emsp;  [Webscreenshot](#)
 
-### 1.4 Metadata and Historical Data<br /><br />
+### 1.4 Metadata and Historical Data<br />
 
-1. **FOCA**: Extract metadata from documents and images.
-    - ***Tools:***&emsp; [FOCA](#), [ExifTool](#), , [Metadata Extractor](#) , [ExifPilot](#) , [Metagoofil](#) , [DocScraper](#) , [PDF-Analyzer](#) , [X1](#) , [Metagoofil](#) , [ExifTool](#)<br /><br />
+- **FOCA**: Extract metadata from documents and images.
+    - ***Tools:*** &emsp;|&emsp; [FOCA](https://www.elevenpaths.com/labs/foca/index.html) &emsp;|&emsp;  [ExifTool](#) &emsp;|&emsp;  [Metadata Extractor](#) &emsp;|&emsp;  [ExifPilot](#) &emsp;|&emsp;  [Metagoofil](#) &emsp;|&emsp;  [DocScraper](#) &emsp;|&emsp;  [PDF-Analyzer](#) &emsp;|&emsp;  [X1](#) &emsp;|&emsp;  [Metagoofil](#) &emsp;|&emsp;  [ExifTool](#)<br />
 
-2. **ExifTool**: Extract metadata from files and images.
-    - ***Tools:***&emsp; [ExifTool](#), [FOCA](#), , [Metadata Extractor](#) , [ExifPilot](#) , [DocScraper](#) , [PDF-Analyzer](#) , [X1](#) , [Metagoofil](#) , [ExifTool](#) , [Metadata++](#)<br /><br />
+- **ExifTool**: Extract metadata from files and images.
+    - ***Tools:*** &emsp;|&emsp; [Jeffrey's Image Metadata Viewer](http://exif.regex.info/exif.cgi) &emsp;|&emsp;  [ExifTool](#) &emsp;|&emsp;  [FOCA](#) &emsp;|&emsp;  [Metadata Extractor](#) &emsp;|&emsp;  [ExifPilot](#) &emsp;|&emsp;  [DocScraper](#) &emsp;|&emsp;  [PDF-Analyzer](#) &emsp;|&emsp;  [X1](#) &emsp;|&emsp;  [Metagoofil](#) &emsp;|&emsp;  [ExifTool](#) &emsp;|&emsp;  [Metadata++](#)<br />
 
-3. **Wayback Machine**: Retrieve historical versions of web pages.
-    - ***Tools:***&emsp; [Wayback Machine](#), [Archive.org](#), , [Oldweb.today](#) , [WebCite](#) , [PageFreezer](#) , [Google Cache](#) , [Bing Cache](#) , [Yandex Cache](#) , [Wayback Machine API](#) , [Netarchive](#)<br /><br />
+- **Wayback Machine**: Retrieve historical versions of web pages.
+    - ***Tools:*** &emsp;|&emsp; [Wayback Machine](https://web.archive.org/) &emsp;|&emsp;  [Archive.org](#) &emsp;|&emsp;  [Oldweb.today](#) &emsp;|&emsp;  [WebCite](#) &emsp;|&emsp;  [PageFreezer](#) &emsp;|&emsp;  [Google Cache](#) &emsp;|&emsp;  [Bing Cache](#) &emsp;|&emsp;  [Yandex Cache](#) &emsp;|&emsp;  [Wayback Machine API](#) &emsp;|&emsp;  [Netarchive](#)<br />
 
-4. **Github Repository Search**: Look for sensitive information in code repositories.
-    - ***Tools:***&emsp; [Github Search](#), [GitHub Code Search](#), , [GitHound](#) , [TruffleHog](#) , [Repo-Extractor](#) , [GitSecrets](#) , [Gitleaks](#) , [GitRob](#) , [GitGuardian](#) , [GitGraber](#)<br /><br />
+- **Github Repository Search**: Look for sensitive information in code repositories.
+    - ***Tools:*** &emsp;|&emsp; [Github](https://github.com/) &emsp;|&emsp;  [GitHub Code Search](#) &emsp;|&emsp;  [GitHound](#) &emsp;|&emsp;  [TruffleHog](#) &emsp;|&emsp;  [Repo-Extractor](#) &emsp;|&emsp;  [GitSecrets](#) &emsp;|&emsp;  [Gitleaks](#) &emsp;|&emsp;  [GitRob](#) &emsp;|&emsp;  [GitGuardian](#) &emsp;|&emsp;  [GitGraber](#)<br />
 
-5. **Metadata Analysis**: Analyze file and document metadata.
-    - ***Tools:***&emsp; [ExifTool](#), [FOCA](#), , [Metadata Extractor](#) , [DocScraper](#) , [PDF-Analyzer](#) , [Metagoofil](#) , [X1](#) , [Metagoofil](#) , [ExifTool](#) , [Metadata++](#)
+- **Metadata Analysis**: Analyze file and document metadata.
+    - ***Tools:*** &emsp;|&emsp; [ExifTool](http://exif.regex.info/exif.cgi) &emsp;|&emsp;  [FOCA](#) &emsp;|&emsp;  [Metadata Extractor](#) &emsp;|&emsp;  [DocScraper](#) &emsp;|&emsp;  [PDF-Analyzer](#) &emsp;|&emsp;  [Metagoofil](#) &emsp;|&emsp;  [X1](#) &emsp;|&emsp;  [Metagoofil](#) &emsp;|&emsp;  [Metadata++](#)
 
-### 1.5 Network and Traffic Analysis<br /><br />
+### 1.5 Network and Traffic Analysis<br />
 
-1. **Network Mapping**: Map out network topology with tools like Nmap.
-    - ***Tools:***&emsp; [Nmap](#), [Masscan](#), , [Zenmap](#) , [Netcat](#) , [Angry IP Scanner](#) , [Unicornscan](#) , [Nessus](#) , [Advanced IP Scanner](#) , [OpenVAS](#) , [Netdiscover](#)<br /><br />
+- **Network Mapping**: Map out network topology with tools like Nmap.
+    - ***Tools:*** &emsp;|&emsp; [Nmap](https://nmap.org/) &emsp;|&emsp;  [Masscan](#) &emsp;|&emsp;  [Zenmap](#) &emsp;|&emsp;  [Netcat](#) &emsp;|&emsp;  [Angry IP Scanner](#) &emsp;|&emsp;  [Unicornscan](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [Advanced IP Scanner](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [Netdiscover](#)<br />
 
-2. **Network Traffic Analysis**: Analyze network traffic for service and system information.
-    - ***Tools:***&emsp; [Wireshark](#), [tcpdump](#), , [Tshark](#) , [Kismet](#) , [NetworkMiner](#) , [Zeek](#) , [EtherApe](#) , [Snort](#) , [NetFlow](#) , [Colasoft Capsa](#)<br /><br />
+- **Network Traffic Analysis**: Analyze network traffic for service and system information.
+    - ***Tools:*** &emsp;|&emsp; [Wireshark](https://www.wireshark.org/) &emsp;|&emsp;  [tcpdump](#) &emsp;|&emsp;  [Tshark](#) &emsp;|&emsp;  [Kismet](#) &emsp;|&emsp;  [NetworkMiner](#) &emsp;|&emsp;  [Zeek](#) &emsp;|&emsp;  [EtherApe](#) &emsp;|&emsp;  [Snort](#) &emsp;|&emsp;  [NetFlow](#) &emsp;|&emsp;  [Colasoft Capsa](#)<br />
 
-3. **IP Range Scanning**: Identify IP ranges associated with the target.
-    - ***Tools:***&emsp; [Nmap](#), [Masscan](#), , [Zmap](#) , [Unicornscan](#) , [Netdiscover](#) , [Angry IP Scanner](#) , [Advanced IP Scanner](#) , [Fping](#) , [Nessus](#) , [Shodan](#)<br /><br />
+- **IP Range Scanning**: Identify IP ranges associated with the target.
+    - ***Tools:*** &emsp;|&emsp; [Nmap](#) &emsp;|&emsp;  [Masscan](#) &emsp;|&emsp;  [Zmap](#) &emsp;|&emsp;  [Unicornscan](#) &emsp;|&emsp;  [Netdiscover](#) &emsp;|&emsp;  [Angry IP Scanner](#) &emsp;|&emsp;  [Advanced IP Scanner](#) &emsp;|&emsp;  [Fping](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [Shodan](#)<br />
 
-4. **Network Enumeration**: Use traceroute to identify network paths.
-    - ***Tools:***&emsp; [Traceroute](#), [MTR](#), , [PingPlotter](#) , [PathPing](#) , [Tracert](#) , [NetworkMiner](#) , [TraceRoute](#) , [Nmap](#) , [Hping](#) , [OpenVAS](#)
+- **Network Enumeration**: Use traceroute to identify network paths.
+    - ***Tools:*** &emsp;|&emsp; [Traceroute](#) &emsp;|&emsp;  [MTR](#) &emsp;|&emsp;  [PingPlotter](#) &emsp;|&emsp;  [PathPing](#) &emsp;|&emsp;  [Tracert](#) &emsp;|&emsp;  [NetworkMiner](#) &emsp;|&emsp;  [TraceRoute](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Hping](#) &emsp;|&emsp;  [OpenVAS](#)
 
 ## 2. Enumeration Techniques
 
-### 2.1 Service and Port Enumeration<br /><br />
+### 2.1 Service and Port Enumeration<br />
 
-1. **Service Enumeration**: Identify active services and their versions.
-    - ***Tools:***&emsp; [Nmap](#), [Netcat](#), , [Masscan](#) , [Service Scanner](#) , [Zmap](#) , [Nessus](#) , [OpenVAS](#) , [Shodan](#) , [Censys](#) , [TCP Port Scanner](#)<br /><br />
+- **Service Enumeration**: Identify active services and their versions.
+    - ***Tools:*** &emsp;|&emsp; [Nmap](#) &emsp;|&emsp;  [Netcat](#) &emsp;|&emsp;  [Masscan](#) &emsp;|&emsp;  [Service Scanner](#) &emsp;|&emsp;  [Zmap](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [Shodan](#) &emsp;|&emsp;  [Censys](#) &emsp;|&emsp;  [TCP Port Scanner](#)<br />
 
-2. **Port Scanning**: Identify open ports and services running on the target.
-    - ***Tools:***&emsp; [Nmap](#), [Masscan](#), , [Zmap](#) , [Unicornscan](#) , [Netcat](#) , [Angry IP Scanner](#) , [Nessus](#) , [OpenVAS](#) , [PortQry](#) , [Fping](#)<br /><br />
+- **Port Scanning**: Identify open ports and services running on the target.
+    - ***Tools:*** &emsp;|&emsp; [Nmap](#) &emsp;|&emsp;  [Masscan](#) &emsp;|&emsp;  [Zmap](#) &emsp;|&emsp;  [Unicornscan](#) &emsp;|&emsp;  [Netcat](#) &emsp;|&emsp;  [Angry IP Scanner](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [PortQry](#) &emsp;|&emsp;  [Fping](#)<br />
 
-3. **Banner Grabbing**: Obtain service banners to determine versions.
-    - ***Tools:***&emsp; [Nmap](#), [Netcat](#), , [Telnet](#) , [BannerGrab](#) , [Netcat](#) , [Telnet](#) , [WhatWeb](#) , [Shodan](#) , [Censys](#) , [BannerGrabber](#)<br /><br />
+- **Banner Grabbing**: Obtain service banners to determine versions.
+    - ***Tools:*** &emsp;|&emsp; [Nmap](#) &emsp;|&emsp;  [Netcat](#) &emsp;|&emsp;  [Telnet](#) &emsp;|&emsp;  [BannerGrab](#) &emsp;|&emsp;  [Netcat](#) &emsp;|&emsp;  [Telnet](#) &emsp;|&emsp;  [WhatWeb](#) &emsp;|&emsp;  [Shodan](#) &emsp;|&emsp;  [Censys](#) &emsp;|&emsp;  [BannerGrabber](#)<br />
 
-4. **FTP Enumeration**: List files and directories on FTP servers.
-    - ***Tools:***&emsp; [Nmap](#), [Metasploit](#), , [ftp](#) , [NcFTP](#) , [WinSCP](#) , [FileZilla](#) , [FTPScan](#) , [Hydra](#) , [FTPEnum](#) , [Burp Suite](#)<br /><br />
+- **FTP Enumeration**: List files and directories on FTP servers.
+    - ***Tools:*** &emsp;|&emsp; [Nmap](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [ftp](#) &emsp;|&emsp;  [NcFTP](#) &emsp;|&emsp;  [WinSCP](#) &emsp;|&emsp;  [FileZilla](#) &emsp;|&emsp;  [FTPScan](#) &emsp;|&emsp;  [Hydra](#) &emsp;|&emsp;  [FTPEnum](#) &emsp;|&emsp;  [Burp Suite](#)<br />
 
-5. **HTTP Methods Testing**: Check for supported HTTP methods.
-    - ***Tools:***&emsp; [Nmap](#), [Burp Suite](#), , [OWASP ZAP](#) , [Nikto](#) , [HTTP Methods](#) , [Wapiti](#) , [WhatWeb](#) , [Dirb](#) , [Gau](#) , [HTTPX](#)<br /><br />
+- **HTTP Methods Testing**: Check for supported HTTP methods.
+    - ***Tools:*** &emsp;|&emsp; [Nmap](#) &emsp;|&emsp;  [Burp Suite](#) &emsp;|&emsp;  [OWASP ZAP](#) &emsp;|&emsp;  [Nikto](#) &emsp;|&emsp;  [HTTP Methods](#) &emsp;|&emsp;  [Wapiti](#) &emsp;|&emsp;  [WhatWeb](#) &emsp;|&emsp;  [Dirb](#) &emsp;|&emsp;  [Gau](#) &emsp;|&emsp;  [HTTPX](#)<br />
 
-6. **WebDAV Enumeration**: Explore WebDAV services for vulnerabilities.
-    - ***Tools:***&emsp; [Nmap](#), [Burp Suite](#), , [OWASP ZAP](#) , [Nikto](#) , [WebDAV Scanner](#) , [dirb](#) , [Wapiti](#) , [Gau](#) , [HTTPX](#) , [WebDAV](#)<br /><br />
+- **WebDAV Enumeration**: Explore WebDAV services for vulnerabilities.
+    - ***Tools:*** &emsp;|&emsp; [Nmap](#) &emsp;|&emsp;  [Burp Suite](#) &emsp;|&emsp;  [OWASP ZAP](#) &emsp;|&emsp;  [Nikto](#) &emsp;|&emsp;  [WebDAV Scanner](#) &emsp;|&emsp;  [dirb](#) &emsp;|&emsp;  [Wapiti](#) &emsp;|&emsp;  [Gau](#) &emsp;|&emsp;  [HTTPX](#) &emsp;|&emsp;  [WebDAV](#)<br />
 
-7. **NFS Enumeration**: Identify Network File System shares and permissions.
-    - ***Tools:***&emsp; [showmount](#), [Nmap](#), , [rpcinfo](#) , [nfsstat](#) , [nmap -p 2049](#) , [nfs-common](#) , [Nessus](#) , [OpenVAS](#) , [Metasploit](#) , [Hydra](#)
+- **NFS Enumeration**: Identify Network File System shares and permissions.
+    - ***Tools:*** &emsp;|&emsp; [showmount](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [rpcinfo](#) &emsp;|&emsp;  [nfsstat](#) &emsp;|&emsp;  [nmap -p 2049](#) &emsp;|&emsp;  [nfs-common](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [Hydra](#)
 
-### 2.2 User and Resource Enumeration<br /><br />
+### 2.2 User and Resource Enumeration<br />
 
-1. **User Enumeration**: Find valid usernames using tools like Hydra or Medusa.
-    - ***Tools:***&emsp; [Hydra](#), [Medusa](#), , [CrackMapExec](#) , [Nmap](#) , [Enum4linux](#) , [Snmpwalk](#) , [SMBclient](#) , [LDAP Enumeration](#) , [Kerberos Enumeration](#) , [Fuzzdb](#)<br /><br />
+- **User Enumeration**: Find valid usernames using tools like Hydra or Medusa.
+    - ***Tools:*** &emsp;|&emsp; [Enum4linux](https://github.com/portcullislabs/enum4linux) &emsp;|&emsp;  [Hydra](#) &emsp;|&emsp;  [Medusa](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [Snmpwalk](#) &emsp;|&emsp;  [SMBclient](#) &emsp;|&emsp;  [LDAP Enumeration](#) &emsp;|&emsp;  [Kerberos Enumeration](#) &emsp;|&emsp;  [Fuzzdb](#)<br />
 
-2. **SMB Enumeration**: Extract information from SMB shares using tools like enum4linux.
-    - ***Tools:***&emsp; [enum4linux](#), [SMBclient](#), , [Nmap](#) , [CrackMapExec](#) , [SMBMap](#) , [Metasploit](#) , [SMBScanner](#) , [Nessus](#) , [OpenVAS](#) , [Impacket](#)<br /><br />
+- **SMB Enumeration**: Extract information from SMB shares using tools like enum4linux.
+    - ***Tools:*** &emsp;|&emsp; [enum4linux](#) &emsp;|&emsp;  [SMBclient](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [SMBMap](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [SMBScanner](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [Impacket](#)<br />
 
-3. **NetBIOS Enumeration**: Gather NetBIOS information with nbtstat.
-    - ***Tools:***&emsp; [nbtstat](#), [NetBIOS Scanner](#), , [Nmap](#) , [Enum4linux](#) , [SMBclient](#) , [NetView](#) , [Metasploit](#) , [Hydra](#) , [CrackMapExec](#) , [Smbclient](#)<br /><br />
+- **NetBIOS Enumeration**: Gather NetBIOS information with nbtstat.
+    - ***Tools:*** &emsp;|&emsp; [nbtscan](https://sourceforge.net/projects/nbtscan/) &emsp;|&emsp;  [nbtstat](#) &emsp;|&emsp;  [NetBIOS Scanner](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [SMBclient](#) &emsp;|&emsp;  [NetView](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [Hydra](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [Smbclient](#)<br />
 
-4. **SNMP Enumeration**: Extract SNMP data with snmpwalk.
-    - ***Tools:***&emsp; [snmpwalk](#), [nmap](#), , [onesixtyone](#) , [snmpenum](#) , [snmpcheck](#) , [Metasploit](#) , [Nessus](#) , [OpenVAS](#) , [SolarWinds](#) , [SolarWinds SNMP Walk](#)<br /><br />
+- **SNMP Enumeration**: Extract SNMP data with snmpwalk.
+    - ***Tools:*** &emsp;|&emsp; [snmpwalk](https://linux.die.net/man/1/snmpwalk) &emsp;|&emsp;  [snmpwalk](#) &emsp;|&emsp;  [nmap](#) &emsp;|&emsp;  [onesixtyone](#) &emsp;|&emsp;  [snmpenum](#) &emsp;|&emsp;  [snmpcheck](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [SolarWinds](#) &emsp;|&emsp;  [SolarWinds SNMP Walk](#)<br />
 
-5. **LDAP Enumeration**: Query LDAP servers for user and group details.
-    - ***Tools:***&emsp; [ldapsearch](#), [Nmap](#), , [CrackMapExec](#) , [Enum4linux](#) , [Metasploit](#) , [LDAP Enumeration](#) , [LDAPScan](#) , [Nessus](#) , [OpenVAS](#) , [Ldapdomaindump](#)<br /><br />
+- **LDAP Enumeration**: Query LDAP servers for user and group details.
+    - ***Tools:*** &emsp;|&emsp; [ldapsearch](https://linux.die.net/man/1/ldapsearch) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [LDAP Enumeration](#) &emsp;|&emsp;  [LDAPScan](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [Ldapdomaindump](#)<br />
 
-6. **SMTP Enumeration**: Discover email configurations using tools like SMTPSend.
-    - ***Tools:***&emsp; [smtp-user-enum](#), [Nmap](#), , [Metasploit](#) , [SMTPSend](#) , [SMTPScan](#) , [SMTP Enumeration](#) , [Harvester](#) , [Snmpwalk](#) , [Burp Suite](#) , [EmailHunter](#)<br /><br />
+- **SMTP Enumeration**: Discover email configurations using tools like SMTPSend.
+    - ***Tools:*** &emsp;|&emsp; [SMTP Enumerator](https://github.com/OsandaMalith/SMTP-Enumerator) &emsp;|&emsp;  [smtp-user-enum](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [SMTPSend](#) &emsp;|&emsp;  [SMTPScan](#) &emsp;|&emsp;  [SMTP Enumeration](#) &emsp;|&emsp;  [Harvester](#) &emsp;|&emsp;  [Snmpwalk](#) &emsp;|&emsp;  [Burp Suite](#) &emsp;|&emsp;  [EmailHunter](#)<br />
 
-7. **Kerberos Enumeration**: Enumerate Kerberos tickets and services.
-    - ***Tools:***&emsp; [Kerberoast](#), [Rubeus](#), , [Impacket](#) , [Nmap](#) , [Metasploit](#) , [CrackMapExec](#) , [Evil-WinRM](#) , [GetNPUsers](#) , [PowerView](#) , [BloodHound](#)<br /><br />
+- **Kerberos Enumeration**: Enumerate Kerberos tickets and services.
+    - ***Tools:*** &emsp;|&emsp; [Kerberoasting](https://www.sans.org/white-papers/34610/) &emsp;|&emsp;  [Kerberoast](#) &emsp;|&emsp;  [Rubeus](#) &emsp;|&emsp;  [Impacket](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [Evil-WinRM](#) &emsp;|&emsp;  [GetNPUsers](#) &emsp;|&emsp;  [PowerView](#) &emsp;|&emsp;  [BloodHound](#)<br />
 
-8. **RPC Enumeration**: Identify RPC services and versions.
-    - ***Tools:***&emsp; [rpcinfo](#), [Nmap](#), , [Metasploit](#) , [Enum4linux](#) , [CrackMapExec](#) , [SMBclient](#) , [Hydra](#) , [Nessus](#) , [OpenVAS](#) , [RPCScan](#)<br /><br />
+- **RPC Enumeration**: Identify RPC services and versions.
+    - ***Tools:*** &emsp;|&emsp; [rpcclient](https://linux.die.net/man/1/rpcclient) &emsp;|&emsp;  [rpcinfo](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [SMBclient](#) &emsp;|&emsp;  [Hydra](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [RPCScan](#)<br />
 
-9. **LDAP Injection Testing**: Test for LDAP injection vulnerabilities.
-    - ***Tools:***&emsp; [LDAPInjection](#), [Burp Suite](#), , [OWASP ZAP](#) , [Nmap](#) , [Metasploit](#) , [Sqlmap](#) , [LDAPi](#) , [Fuzzdb](#) , [DirBuster](#) , [Gf](#)<br /><br />
+- **LDAP Injection Testing**: Test for LDAP injection vulnerabilities.
+    - ***Tools:*** &emsp;|&emsp; [OWASP ZAP](https://owasp.org/www-project-zap/) &emsp;|&emsp;  [LDAPInjection](#) &emsp;|&emsp;  [Burp Suite](#) &emsp;|&emsp;  [OWASP ZAP](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [Sqlmap](#) &emsp;|&emsp;  [LDAPi](#) &emsp;|&emsp;  [Fuzzdb](#) &emsp;|&emsp;  [DirBuster](#) &emsp;|&emsp;  [Gf](#)<br />
 
-10. **Kerberoasting**: Extract and crack service tickets from Kerberos.
-    - ***Tools:***&emsp; [Rubeus](#), [Impacket](#) , [Kerberoast](#) , [Metasploit](#) , [CrackMapExec](#) , [PowerView](#) , [BloodHound](#) , [GetNPUsers](#) , [Kerbrute](#) , [Kerbrute](#)
+- **Kerberoasting**: Extract and crack service tickets from Kerberos.
+    - ***Tools:*** &emsp;|&emsp; [Kerberoasting](https://www.sans.org/white-papers/34610/) &emsp;|&emsp;  [Rubeus](#) &emsp;|&emsp;  [Impacket](#) &emsp;|&emsp;  [Kerberoast](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [PowerView](#) &emsp;|&emsp;  [BloodHound](#) &emsp;|&emsp;  [GetNPUsers](#) &emsp;|&emsp;  [Kerbrute](#) &emsp;|&emsp;  [Kerbrute](#)
 
 ## 3. Scanning Techniques
 
-### 3.1 Network and Service Scanning<br /><br />
+### 3.1 Network and Service Scanning<br />
 
-1. **Network Scanning**: Discover live hosts and network services.
-    - ***Tools:***&emsp; [Nmap](#), [Masscan](#), , [Zmap](#) , [Unicornscan](#) , [Netdiscover](#) , [Angry IP Scanner](#) , [Nessus](#) , [OpenVAS](#) , [Netcat](#) , [Advanced IP Scanner](#)<br /><br />
+- **Network Scanning**: Discover live hosts and network services.
+    - ***Tools:*** &emsp;|&emsp; [Nmap](#) &emsp;|&emsp;  [Masscan](#) &emsp;|&emsp;  [Zmap](#) &emsp;|&emsp;  [Unicornscan](#) &emsp;|&emsp;  [Netdiscover](#) &emsp;|&emsp;  [Angry IP Scanner](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [Netcat](#) &emsp;|&emsp;  [Advanced IP Scanner](#)<br />
 
-2. **Port Scanning**: Identify open ports with detailed options.
-    - ***Tools:***&emsp; [Nmap](#), [Masscan](#), , [Zmap](#) , [Unicornscan](#) , [Netcat](#) , [Angry IP Scanner](#) , [Nessus](#) , [OpenVAS](#) , [PortQry](#) , [Fping](#)<br /><br />
+- **Port Scanning**: Identify open ports with detailed options.
+    - ***Tools:*** &emsp;|&emsp; [Nmap](#) &emsp;|&emsp;  [Masscan](#) &emsp;|&emsp;  [Zmap](#) &emsp;|&emsp;  [Unicornscan](#) &emsp;|&emsp;  [Netcat](#) &emsp;|&emsp;  [Angry IP Scanner](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [PortQry](#) &emsp;|&emsp;  [Fping](#)<br />
 
-3. **Service Scanning**: Determine services running on open ports.
-    - ***Tools:***&emsp; [Nmap](#), [Netcat](#), , [Masscan](#) , [Zmap](#) , [Unicornscan](#) , [Nessus](#) , [OpenVAS](#) , [Shodan](#) , [Censys](#) , [TCP Port Scanner](#)<br /><br />
+- **Service Scanning**: Determine services running on open ports.
+    - ***Tools:*** &emsp;|&emsp; [Nmap](#) &emsp;|&emsp;  [Netcat](#) &emsp;|&emsp;  [Masscan](#) &emsp;|&emsp;  [Zmap](#) &emsp;|&emsp;  [Unicornscan](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [Shodan](#) &emsp;|&emsp;  [Censys](#) &emsp;|&emsp;  [TCP Port Scanner](#)<br />
 
-4. **Operating System Fingerprinting**: Identify the operating system using tools like Nmap or p0f.
-    - ***Tools:***&emsp; [Nmap](#), [p0f](#), , [Xprobe2](#) , [Nessus](#) , [OpenVAS](#) , [Shodan](#) , [Censys](#) , [OS Fingerprinter](#) , [P0f](#) , [Netcat](#)<br /><br />
+- **Operating System Fingerprinting**: Identify the operating system using tools like Nmap or p0f.
+    - ***Tools:*** &emsp;|&emsp; [Nmap](#) &emsp;|&emsp;  [p0f](#) &emsp;|&emsp;  [Xprobe2](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [Shodan](#) &emsp;|&emsp;  [Censys](#) &emsp;|&emsp;  [OS Fingerprinter](#) &emsp;|&emsp;  [P0f](#) &emsp;|&emsp;  [Netcat](#)<br />
 
-5. **Web Application Scanning**: Detect vulnerabilities in web applications using tools like OWASP ZAP or Burp Suite.
-    - ***Tools:***&emsp; [OWASP ZAP](#), [Burp Suite](#), , [Nikto](#) , [Wapiti](#) , [Arachni](#) , [Acunetix](#) , [Nessus](#) , [OpenVAS](#) , [W3af](#) , [SQLMap](#)<br /><br />
+- **Web Application Scanning**: Detect vulnerabilities in web applications using tools like OWASP ZAP or Burp Suite.
+    - ***Tools:*** &emsp;|&emsp; [OWASP ZAP](#) &emsp;|&emsp;  [Burp Suite](#) &emsp;|&emsp;  [Nikto](#) &emsp;|&emsp;  [Wapiti](#) &emsp;|&emsp;  [Arachni](#) &emsp;|&emsp;  [Acunetix](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [W3af](#) &emsp;|&emsp;  [SQLMap](#)<br />
 
-6. **DNS Scanning**: Scan DNS records and identify potential misconfigurations.
-    - ***Tools:***&emsp; [Nmap](#), [dnsenum](#), , [dnsrecon](#) , [dnsutils](#) , [dnsmap](#) , [fierce](#) , [DNSEnum](#) , [DNSRecon](#) , [DNSMap](#) , [Fierce](#)<br /><br />
+- **DNS Scanning**: Scan DNS records and identify potential misconfigurations.
+    - ***Tools:*** &emsp;|&emsp; [Nmap](#) &emsp;|&emsp;  [dnsenum](#) &emsp;|&emsp;  [dnsrecon](#) &emsp;|&emsp;  [dnsutils](#) &emsp;|&emsp;  [dnsmap](#) &emsp;|&emsp;  [fierce](#) &emsp;|&emsp;  [DNSEnum](#) &emsp;|&emsp;  [DNSRecon](#) &emsp;|&emsp;  [DNSMap](#) &emsp;|&emsp;  [Fierce](#)<br />
 
-7. **SSL/TLS Scanning**: Check SSL/TLS configurations and vulnerabilities using tools like Qualys SSL Labs.
-    - ***Tools:***&emsp; [Qualys SSL Labs](#), [SSLLabs](#), , [Nmap](#) , [OpenSSL](#) , [SSLScan](#) , [TestSSL](#) , [SSLYze](#) , [Cipherscan](#) , [SSLStrip](#) , [Hardenize](#)
+- **SSL/TLS Scanning**: Check SSL/TLS configurations and vulnerabilities using tools like Qualys SSL Labs.
+    - ***Tools:*** &emsp;|&emsp; [testssl](https://github.com/drwetter/testssl.sh) &emsp;|&emsp;  [Qualys SSL Labs](#) &emsp;|&emsp;  [SSLLabs](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [OpenSSL](#) &emsp;|&emsp;  [SSLScan](#) &emsp;|&emsp;  [TestSSL](#) &emsp;|&emsp;  [SSLYze](#) &emsp;|&emsp;  [Cipherscan](#) &emsp;|&emsp;  [SSLStrip](#) &emsp;|&emsp;  [Hardenize](#)
 
-### 3.2 Vulnerability and Protocol Scanning<br /><br />
+### 3.2 Vulnerability and Protocol Scanning<br />
 
-1. **Vulnerability Scanning**: Identify known vulnerabilities using tools like Nessus or OpenVAS.
-    - ***Tools:***&emsp; [Nessus](#), [OpenVAS](#), , [Qualys](#) , [Rapid7 InsightVM](#) , [Burp Suite](#) , [Acunetix](#) , [Wapiti](#) , [Nmap](#) , [Arachni](#) , [AppScan](#)<br /><br />
+- **Vulnerability Scanning**: Identify known vulnerabilities using tools like Nessus or OpenVAS.
+    - ***Tools:*** &emsp;|&emsp; [Nessus](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [Qualys](#) &emsp;|&emsp;  [Rapid7 InsightVM](#) &emsp;|&emsp;  [Burp Suite](#) &emsp;|&emsp;  [Acunetix](#) &emsp;|&emsp;  [Wapiti](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Arachni](#) &emsp;|&emsp;  [AppScan](#)<br />
 
-2. **Port Sweeping**: Scan a range of ports to identify open services.
-    - ***Tools:***&emsp; [Nmap](#), [Masscan](#), , [Zmap](#) , [Unicornscan](#) , [Fping](#) , [Netcat](#) , [Angry IP Scanner](#) , [PortQry](#) , [Zmap](#) , [Netdiscover](#)<br /><br />
+- **Port Sweeping**: Scan a range of ports to identify open services.
+    - ***Tools:*** &emsp;|&emsp; [Nmap](#) &emsp;|&emsp;  [Masscan](#) &emsp;|&emsp;  [Zmap](#) &emsp;|&emsp;  [Unicornscan](#) &emsp;|&emsp;  [Fping](#) &emsp;|&emsp;  [Netcat](#) &emsp;|&emsp;  [Angry IP Scanner](#) &emsp;|&emsp;  [PortQry](#) &emsp;|&emsp;  [Zmap](#) &emsp;|&emsp;  [Netdiscover](#)<br />
 
-3. **Application Scanning**: Identify vulnerabilities in applications and services.
-    - ***Tools:***&emsp; [OWASP ZAP](#), [Burp Suite](#), , [Nessus](#) , [OpenVAS](#) , [Acunetix](#) , [AppScan](#) , [Wapiti](#) , [Arachni](#) , [AppSpider](#) , [Nikto](#)<br /><br />
+- **Application Scanning**: Identify vulnerabilities in applications and services.
+    - ***Tools:*** &emsp;|&emsp; [OWASP ZAP](#) &emsp;|&emsp;  [Burp Suite](#) &emsp;|&emsp;  [Nessus](#) &emsp;|&emsp;  [OpenVAS](#) &emsp;|&emsp;  [Acunetix](#) &emsp;|&emsp;  [AppScan](#) &emsp;|&emsp;  [Wapiti](#) &emsp;|&emsp;  [Arachni](#) &emsp;|&emsp;  [AppSpider](#) &emsp;|&emsp;  [Nikto](#)<br />
 
-4. **Network Protocol Analysis**: Analyze network protocols for weaknesses.
-    - ***Tools:***&emsp; [Wireshark](#), [tcpdump](#), , [Tshark](#) , [Kismet](#) , [NetFlow](#) , [Snort](#) , [Zeek](#) , [Colasoft Capsa](#) , [NetworkMiner](#) , [Suricata](#)<br /><br />
+- **Network Protocol Analysis**: Analyze network protocols for weaknesses.
+    - ***Tools:*** &emsp;|&emsp; [Wireshark](#) &emsp;|&emsp;  [tcpdump](#) &emsp;|&emsp;  [Tshark](#) &emsp;|&emsp;  [Kismet](#) &emsp;|&emsp;  [NetFlow](#) &emsp;|&emsp;  [Snort](#) &emsp;|&emsp;  [Zeek](#) &emsp;|&emsp;  [Colasoft Capsa](#) &emsp;|&emsp;  [NetworkMiner](#) &emsp;|&emsp;  [Suricata](#)<br />
 
-5. **Wireless Scanning**: Identify and analyze wireless networks and their security settings.
-    - ***Tools:***&emsp; [Kismet](#), [Aircrack-ng](#), , [Wireshark](#) , [Reaver](#) , [Fern Wifi Cracker](#) , [Wifite](#) , [NetStumbler](#) , [InSSIDer](#) , [Airodump-ng](#) , [WPS Cracker](#)
+- **Wireless Scanning**: Identify and analyze wireless networks and their security settings.
+    - ***Tools:*** &emsp;|&emsp; [Kismet](https://kismetwireless.net/) &emsp;|&emsp;  [Aircrack-ng](#) &emsp;|&emsp;  [Wireshark](#) &emsp;|&emsp;  [Reaver](#) &emsp;|&emsp;  [Fern Wifi Cracker](#) &emsp;|&emsp;  [Wifite](#) &emsp;|&emsp;  [NetStumbler](#) &emsp;|&emsp;  [InSSIDer](#) &emsp;|&emsp;  [Airodump-ng](#) &emsp;|&emsp;  [WPS Cracker](#)
 
 ## 4. OSINT Techniques
-<br /><br />
+<br />
 
-1. **Social Media Analysis**: Collect information from social media platforms.
-    - ***Tools:***&emsp; [Maltego](#), [Social-Engineer Toolkit](#), , [Recon-ng](#) , [Spokeo](#) , [Pipl](#) , [LinkedIn](#) , [Facebook](#) , [Twitter](#) , [Instagram](#) , [Social Mapper](#)<br /><br />
+- **Social Media Analysis**: Collect information from social media platforms.
+    - ***Tools:*** &emsp;|&emsp; [Maltego](#) &emsp;|&emsp;  [Social-Engineer Toolkit](#) &emsp;|&emsp;  [Recon-ng](#) &emsp;|&emsp;  [Spokeo](#) &emsp;|&emsp;  [Pipl](#) &emsp;|&emsp;  [LinkedIn](#) &emsp;|&emsp;  [Facebook](#) &emsp;|&emsp;  [Twitter](#) &emsp;|&emsp;  [Instagram](#) &emsp;|&emsp;  [Social Mapper](#) &emsp;|&emsp;  [Social Bearing](https://socialbearing.com/) &emsp;|&emsp;  [Twitonomy](https://www.twitonomy.com/) &emsp;|&emsp;  [TweetDeck](https://tweetdeck.com/)<br />
 
-2. **Public Records Search**: Access public records and databases.
-    - ***Tools:***&emsp; [Pipl](#), [Spokeo](#), , [PeopleFinder](#) , [Intelius](#) , [LinkedIn](#) , [Facebook](#) , [Whitepages](#) , [PublicRecords.com](#) , [ZabaSearch](#) , [BeenVerified](#)<br /><br />
+- **Public Records Search**: Access public records and databases.
+    - ***Tools:*** &emsp;|&emsp; [Pipl](#) &emsp;|&emsp;  [Spokeo](#) &emsp;|&emsp;  [PeopleFinder](#) &emsp;|&emsp;  [Intelius](#) &emsp;|&emsp;  [LinkedIn](#) &emsp;|&emsp;  [Facebook](#) &emsp;|&emsp;  [Whitepages](#) &emsp;|&emsp;  [PublicRecords.com](#) &emsp;|&emsp;  [ZabaSearch](#) &emsp;|&emsp;  [BeenVerified](#)<br />
 
-3. **Domain and IP Lookup**: Investigate domain and IP address information.
-    - ***Tools:***&emsp; [WHOIS](#), [DomainTools](#), , [ipinfo](#) , [Censys](#) , [Shodan](#) , [Google Search](#) , [Bing Search](#) , [dnsenum](#) , [dnsrecon](#) 
-[ipapi]&emsp;&emsp; <br /><br />
+- **Domain and IP Lookup**: Investigate domain and IP address information.
+    - ***Tools:*** &emsp;|&emsp; [WHOIS](#) &emsp;|&emsp;  [DomainTools](#) &emsp;|&emsp;  [ipinfo](#) &emsp;|&emsp;  [Censys](#) &emsp;|&emsp;  [Shodan](#) &emsp;|&emsp;  [Google Search](#) &emsp;|&emsp;  [Bing Search](#) &emsp;|&emsp;  [dnsenum](#) &emsp;|&emsp;  [dnsrecon](#) 
+[ipapi]&emsp;&emsp; <br />
 
-4. **Historical Data Search**: Access historical data on websites and domains.
-    - ***Tools:***&emsp; [Wayback Machine](#), [Archive.org](#), , [Oldweb.today](#) , [WebCite](#) , [PageFreezer](#) , [Google Cache](#) , [Bing Cache](#) , [Yandex Cache](#) , [Netarchive](#) , [Wayback Machine API](#)<br /><br />
+- **Historical Data Search**: Access historical data on websites and domains.
+    - ***Tools:*** &emsp;|&emsp; [Wayback Machine](#) &emsp;|&emsp;  [Archive.org](#) &emsp;|&emsp;  [Oldweb.today](#) &emsp;|&emsp;  [WebCite](#) &emsp;|&emsp;  [PageFreezer](#) &emsp;|&emsp;  [Google Cache](#) &emsp;|&emsp;  [Bing Cache](#) &emsp;|&emsp;  [Yandex Cache](#) &emsp;|&emsp;  [Netarchive](#) &emsp;|&emsp;  [Wayback Machine API](#)<br />
 
-5. **Code Repository Search**: Look for sensitive information in public code repositories.
-    - ***Tools:***&emsp; [Github Search](#), [GitHub Code Search](#), , [GitHound](#) , [TruffleHog](#) , [Repo-Extractor](#) , [GitSecrets](#) , [Gitleaks](#) , [GitRob](#) , [GitGuardian](#) , [GitGraber](#)<br /><br />
+- **Code Repository Search**: Look for sensitive information in public code repositories.
+    - ***Tools:*** &emsp;|&emsp; [Github Search](#) &emsp;|&emsp;  [GitHub Code Search](#) &emsp;|&emsp;  [GitHound](#) &emsp;|&emsp;  [TruffleHog](#) &emsp;|&emsp;  [Repo-Extractor](#) &emsp;|&emsp;  [GitSecrets](#) &emsp;|&emsp;  [Gitleaks](#) &emsp;|&emsp;  [GitRob](#) &emsp;|&emsp;  [GitGuardian](#) &emsp;|&emsp;  [GitGraber](#)<br />
 
-6. **Online People Search**: Find personal details and professional backgrounds.
-    - ***Tools:***&emsp; [Pipl](#), [Intelius](#), , [Spokeo](#) , [PeopleFinders](#) , [LinkedIn](#) , [Facebook](#) , [Whitepages](#) , [BeenVerified](#) , [ZabaSearch](#) , [PublicRecords.com](#)<br /><br />
+- **Online People Search**: Find personal details and professional backgrounds.
+    - ***Tools:*** &emsp;|&emsp; [Pipl](#) &emsp;|&emsp;  [Intelius](#) &emsp;|&emsp;  [Spokeo](#) &emsp;|&emsp;  [PeopleFinders](#) &emsp;|&emsp;  [LinkedIn](#) &emsp;|&emsp;  [Facebook](#) &emsp;|&emsp;  [Whitepages](#) &emsp;|&emsp;  [BeenVerified](#) &emsp;|&emsp;  [ZabaSearch](#) &emsp;|&emsp;  [PublicRecords.com](#)<br />
 
-7. **Technical Analysis**: Analyze publicly available technical data.
-    - ***Tools:***&emsp; [Shodan](#), [Censys](#), , [Google Search](#) , [Bing Search](#) , [CVE Details](#) , [Exploit-DB](#) , [Mitre ATT&CK](#) , [Common Vuln. Scoring System (CVSS)](#) , [NVD](#) , [OSINT Framework](#)
+- **Technical Analysis**: Analyze publicly available technical data.
+    - ***Tools:*** &emsp;|&emsp; [Shodan](#) &emsp;|&emsp;  [Censys](#) &emsp;|&emsp;  [Google Search](#) &emsp;|&emsp;  [Bing Search](#) &emsp;|&emsp;  [CVE Details](#) &emsp;|&emsp;  [Exploit-DB](#) &emsp;|&emsp;  [Mitre ATT&CK](#) &emsp;|&emsp;  [Common Vuln. Scoring System (CVSS)](#) &emsp;|&emsp;  [NVD](#) &emsp;|&emsp;  [OSINT Framework](#)
 
-## 5. Active Directory Enumeration
-<br /><br />
+## 5. Active Directory Enumeration <br />
 
-1. **Domain Enumeration**: Gather information about the domain structure.
-    - ***Tools:***&emsp; [BloodHound](#), [PowerView](#), , [ADRecon](#) , [Nmap](#) , [LDAP Enumeration](#) , [Kerberos Enumeration](#) , [Enum4linux](#) , [Metasploit](#) , [CrackMapExec](#) , [Impacket](#)<br /><br />
+- **Domain Enumeration**: Gather information about the domain structure.
+    - ***Tools:*** &emsp;|&emsp; [AD Pentesters](https://github.com/0xDigimon/PenetrationTesting_Notes-) &emsp;|&emsp;  [BloodHound](#) &emsp;|&emsp;  [PowerView](#) &emsp;|&emsp;  [ADRecon](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [LDAP Enumeration](#) &emsp;|&emsp;  [Kerberos Enumeration](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [Impacket](#) &emsp;|&emsp;  [Pentest-Tools Subdomain Finder](https://pentest-tools.com/information-gathering/find-subdomains-of-domain#) &emsp;|&emsp;  [Subfinder](https://github.com/projectdiscovery/subfinder) &emsp;|&emsp;  [Assetfinder](https://github.com/tomnomnom/assetfinder)<br />
 
-2. **User Enumeration**: Identify domain users.
-    - ***Tools:***&emsp; [BloodHound](#), [PowerView](#), , [ADRecon](#) , [Nmap](#) , [Kerberos Enumeration](#) , [Enum4linux](#) , [CrackMapExec](#) , [Impacket](#) , [NetUser](#) , [ADfind](#)<br /><br />
+- **User Enumeration**: Identify domain users.
+    - ***Tools:*** &emsp;|&emsp; [BloodHound](#) &emsp;|&emsp;  [PowerView](#) &emsp;|&emsp;  [ADRecon](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Kerberos Enumeration](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [Impacket](#) &emsp;|&emsp;  [NetUser](#) &emsp;|&emsp;  [ADfind](#) &emsp;|&emsp;  [Enum4linux](https://github.com/portcullislabs/enum4linux)<br />
 
-3. **Group Enumeration**: Discover groups and their memberships.
-    - ***Tools:***&emsp; [BloodHound](#), [PowerView](#), , [ADRecon](#) , [Nmap](#) , [Kerberos Enumeration](#) , [Enum4linux](#) , [CrackMapExec](#) , [Impacket](#) , [NetGroup](#) , [ADfind](#)<br /><br />
+- **Group Enumeration**: Discover groups and their memberships.
+    - ***Tools:*** &emsp;|&emsp; [BloodHound](#) &emsp;|&emsp;  [PowerView](#) &emsp;|&emsp;  [ADRecon](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Kerberos Enumeration](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [Impacket](#) &emsp;|&emsp;  [NetGroup](#) &emsp;|&emsp;  [ADfind](#)<br />
 
-4. **Domain Trust Enumeration**: Identify domain trusts and relationships.
-    - ***Tools:***&emsp; [BloodHound](#), [PowerView](#), , [ADRecon](#) , [Nmap](#) , [Kerberos Enumeration](#) , [Enum4linux](#) , [CrackMapExec](#) , [Impacket](#) , [Netdom](#) , [TrustInspector](#)<br /><br />
+- **Domain Trust Enumeration**: Identify domain trusts and relationships.
+    - ***Tools:*** &emsp;|&emsp; [BloodHound](#) &emsp;|&emsp;  [PowerView](#) &emsp;|&emsp;  [ADRecon](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Kerberos Enumeration](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [Impacket](#) &emsp;|&emsp;  [Netdom](#) &emsp;|&emsp;  [TrustInspector](#)<br />
 
-5. **ACL Enumeration**: Review Access Control Lists for misconfigurations.
-    - ***Tools:***&emsp; [BloodHound](#), [PowerView](#), , [ADRecon](#) , [Nmap](#) , [Kerberos Enumeration](#) , [Enum4linux](#) , [CrackMapExec](#) , [Impacket](#) , [NetDom](#) , [Dcom](#)<br /><br />
+- **ACL Enumeration**: Review Access Control Lists for misconfigurations.
+    - ***Tools:*** &emsp;|&emsp; [BloodHound](#) &emsp;|&emsp;  [PowerView](#) &emsp;|&emsp;  [ADRecon](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Kerberos Enumeration](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [Impacket](#) &emsp;|&emsp;  [NetDom](#) &emsp;|&emsp;  [Dcom](#)<br />
 
-6. **Kerberoasting**: Extract service tickets to crack passwords.
-    - ***Tools:***&emsp; [Kerberoast](#), [Rubeus](#), , [Impacket](#) , [CrackMapExec](#) , [PowerView](#) , [BloodHound](#) , [GetNPUsers](#) , [Kerbrute](#) , [Kerberoast](#) , [GetUserSPNs](#)<br /><br />
+- **Kerberoasting**: Extract service tickets to crack passwords.
+    - ***Tools:*** &emsp;|&emsp; [Kerberoast](#) &emsp;|&emsp;  [Rubeus](#) &emsp;|&emsp;  [Impacket](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [PowerView](#) &emsp;|&emsp;  [BloodHound](#) &emsp;|&emsp;  [GetNPUsers](#) &emsp;|&emsp;  [Kerbrute](#) &emsp;|&emsp;  [Kerberoast](#) &emsp;|&emsp;  [GetUserSPNs](#)<br />
 
-7. **SPN Enumeration**: Discover Service Principal Names.
-    - ***Tools:***&emsp; [Kerberoast](#), [Rubeus](#), , [Impacket](#) , [CrackMapExec](#) , [PowerView](#) , [BloodHound](#) , [GetNPUsers](#) , [Kerbrute](#) , [GetUserSPNs](#) , [Kerberoast](#)<br /><br />
+- **SPN Enumeration**: Discover Service Principal Names.
+    - ***Tools:*** &emsp;|&emsp; [Kerberoast](#) &emsp;|&emsp;  [Rubeus](#) &emsp;|&emsp;  [Impacket](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [PowerView](#) &emsp;|&emsp;  [BloodHound](#) &emsp;|&emsp;  [GetNPUsers](#) &emsp;|&emsp;  [Kerbrute](#) &emsp;|&emsp;  [GetUserSPNs](#) &emsp;|&emsp;  [Kerberoast](#)<br />
 
-8. **Kerberos Ticket Extraction**: Obtain Kerberos tickets for analysis.
-    - ***Tools:***&emsp; [Rubeus](#), [Impacket](#), , [Kerberoast](#) , [GetNPUsers](#) , [CrackMapExec](#) , [PowerView](#) , [BloodHound](#) , [Kerbrute](#) , [Kerberoast](#) , [Mimikatz](#)
+- **Kerberos Ticket Extraction**: Obtain Kerberos tickets for analysis.
+    - ***Tools:*** &emsp;|&emsp; [Rubeus](#) &emsp;|&emsp;  [Impacket](#) &emsp;|&emsp;  [Kerberoast](#) &emsp;|&emsp;  [GetNPUsers](#) &emsp;|&emsp;  [CrackMapExec](#) &emsp;|&emsp;  [PowerView](#) &emsp;|&emsp;  [BloodHound](#) &emsp;|&emsp;  [Kerbrute](#) &emsp;|&emsp;  [Kerberoast](#) &emsp;|&emsp;  [Mimikatz](#)
 
 ## 6. Privilege Escalation Techniques
+1.  - ***Tools:*** &emsp;|&emsp; [Fuzzy Security Guide](https://www.fuzzysecurity.com/tutorials/16.html) &emsp;|&emsp; [PayloadsAllTheThings Guide](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md) &emsp;|&emsp; [Absolomb Windows Privilege Escalation Guide](https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/) &emsp;|&emsp; [Sushant 747's Guide (Country dependant - may need VPN)](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html) &emsp;|&emsp; [All resources used in the course](https://github.com/Gr1mmie/Windows-Priviledge-Escalation-Resources)
 
-### 6.1 Linux Privilege Escalation<br /><br />
+### 6.1 Linux Privilege Escalation<br />
 
-1. **SUID/SGID Files**: Identify files with SUID or SGID permissions.
-    - ***Tools:***&emsp; [find](#), [LinPeas](#), , [Linux Exploit Suggester](#) , [GTFOBins](#) , [LinEnum](#) , [Pspy](#) , [Enum4linux](#) , [RogueMaster](#)<br /><br />
+- **SUID/SGID Files**: Identify files with SUID or SGID permissions.
+    - ***Tools:*** &emsp;|&emsp; [find](#) &emsp;|&emsp;  [LinPeas](#) &emsp;|&emsp;  [Linux Exploit Suggester](#) &emsp;|&emsp;  [GTFOBins](#) &emsp;|&emsp;  [LinEnum](#) &emsp;|&emsp;  [Pspy](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [RogueMaster](#) &emsp;|&emsp;  [Linux Privilege Escalation Scripts](https://github.com/sullo/kerberoasting)<br />
 
-2. **Kernel Exploits**: Check for vulnerabilities in the Linux kernel.
-    - ***Tools:***&emsp; [uname](#), [Kernel Exploits](#), , [Linux Exploit Suggester](#) , [Metasploit](#)<br /><br />
+- **Kernel Exploits**: Check for vulnerabilities in the Linux kernel.
+    - ***Tools:*** &emsp;|&emsp; [uname](#) &emsp;|&emsp;  [Kernel Exploits](#) &emsp;|&emsp;  [Linux Exploit Suggester](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [Exploit-DB](https://www.exploit-db.com/)<br />
 
-3. **Cron Jobs**: Identify misconfigured cron jobs.
-    - ***Tools:***&emsp; [crontab](#), [LinPeas](#), , [Linux Exploit Suggester](#) , [GTFOBins](#) , [LinEnum](#) , [Pspy](#) , [Enum4linux](#) , [RogueMaster](#)<br /><br />
+- **Cron Jobs**: Identify misconfigured cron jobs.
+    - ***Tools:*** &emsp;|&emsp; [crontab](#) &emsp;|&emsp;  [LinPeas](#) &emsp;|&emsp;  [Linux Exploit Suggester](#) &emsp;|&emsp;  [GTFOBins](#) &emsp;|&emsp;  [LinEnum](#) &emsp;|&emsp;  [Pspy](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [RogueMaster](#) &emsp;|&emsp;  [Linux Privilege Escalation Scripts](https://github.com/sullo/kerberoasting)<br />
 
-4. **Writable Directories**: Check for directories where files can be written.
-    - ***Tools:***&emsp; [find](#), [LinPeas](#), , [Linux Exploit Suggester](#) , [GTFOBins](#) , [LinEnum](#) , [Pspy](#) , [Enum4linux](#) , [RogueMaster](#)<br /><br />
+- **Writable Directories**: Check for directories where files can be written.
+    - ***Tools:*** &emsp;|&emsp; [find](#) &emsp;|&emsp;  [LinPeas](#) &emsp;|&emsp;  [Linux Exploit Suggester](#) &emsp;|&emsp;  [GTFOBins](#) &emsp;|&emsp;  [LinEnum](#) &emsp;|&emsp;  [Pspy](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [RogueMaster](#) &emsp;|&emsp;  [Linux Privilege Escalation Scripts](https://github.com/sullo/kerberoasting)<br />
 
-5. **Environment Variables**: Inspect environment variables for sensitive data.
-    - ***Tools:***&emsp; [env](#), [printenv](#), , [LinPeas](#) , [Linux Exploit Suggester](#) , [GTFOBins](#) , [LinEnum](#) , [Pspy](#) , [Enum4linux](#) , [RogueMaster](#)<br /><br />
+- **Environment Variables**: Inspect environment variables for sensitive data.
+    - ***Tools:*** &emsp;|&emsp; [env](#) &emsp;|&emsp;  [printenv](#) &emsp;|&emsp;  [LinPeas](#) &emsp;|&emsp;  [Linux Exploit Suggester](#) &emsp;|&emsp;  [GTFOBins](#) &emsp;|&emsp;  [LinEnum](#) &emsp;|&emsp;  [Pspy](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [RogueMaster](#) &emsp;|&emsp;  [Linux Privilege Escalation Scripts](https://github.com/sullo/kerberoasting)<br />
 
-6. **SetUID Binaries**: Check for binaries with SetUID permissions.
-    - ***Tools:***&emsp; [find](#), [LinPeas](#), , [Linux Exploit Suggester](#) , [GTFOBins](#) , [LinEnum](#) , [Pspy](#) , [Enum4linux](#) , [RogueMaster](#)<br /><br />
+- **SetUID Binaries**: Check for binaries with SetUID permissions.
+    - ***Tools:*** &emsp;|&emsp; [find](#) &emsp;|&emsp;  [LinPeas](#) &emsp;|&emsp;  [Linux Exploit Suggester](#) &emsp;|&emsp;  [GTFOBins](#) &emsp;|&emsp;  [LinEnum](#) &emsp;|&emsp;  [Pspy](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [RogueMaster](#) &emsp;|&emsp;  [Linux Privilege Escalation Scripts](https://github.com/sullo/kerberoasting)<br />
 
-7. **Sudo Permissions**: Inspect sudo permissions and configurations.
-    - ***Tools:***&emsp; [sudo -l](#), [LinPeas](#), , [Linux Exploit Suggester](#) , [GTFOBins](#) , [LinEnum](#) , [Pspy](#) , [Enum4linux](#) , [RogueMaster](#)
+- **Sudo Permissions**: Inspect sudo permissions and configurations.
+    - ***Tools:*** &emsp;|&emsp; [sudo -l](#) &emsp;|&emsp;  [LinPeas](#) &emsp;|&emsp;  [Linux Exploit Suggester](#) &emsp;|&emsp;  [GTFOBins](#) &emsp;|&emsp;  [LinEnum](#) &emsp;|&emsp;  [Pspy](#) &emsp;|&emsp;  [Enum4linux](#) &emsp;|&emsp;  [RogueMaster](#)
 
-### 6.2 Windows Privilege Escalation<br /><br />
+### 6.2 Windows Privilege Escalation<br />
 
-1. **Unquoted Service Paths**: Identify unquoted service paths that can be exploited.
-    - ***Tools:***&emsp; [wmic](#), [PowerShell](#), , [Sysinternals](#) , [Accesschk](#) , [Procmon](#) , [Autoruns](#) , [WinPEAS](#) , [Windows Exploit Suggester](#) , [Metasploit](#)<br /><br />
+- **Unquoted Service Paths**: Identify unquoted service paths that can be exploited.
+    - ***Tools:*** &emsp;|&emsp; [wmic](#) &emsp;|&emsp;  [PowerShell](#) &emsp;|&emsp;  [Sysinternals](#) &emsp;|&emsp;  [Accesschk](#) &emsp;|&emsp;  [Procmon](#) &emsp;|&emsp;  [Autoruns](#) &emsp;|&emsp;  [WinPEAS](#) &emsp;|&emsp;  [Windows Exploit Suggester](#) &emsp;|&emsp;  [Metasploit](#)<br />
 
-2. **Insecure File Permissions**: Check for files with insecure permissions.
-    - ***Tools:***&emsp; [icacls](#), [Accesschk](#), , [WinPEAS](#) , [Sysinternals](#) , [PowerShell](#) , [Windows Exploit Suggester](#) , [Metasploit](#) , [Netcat](#) , [Nmap](#) , [Dirbuster](#)<br /><br />
+- **Insecure File Permissions**: Check for files with insecure permissions.
+    - ***Tools:*** &emsp;|&emsp; [icacls](#) &emsp;|&emsp;  [Accesschk](#) &emsp;|&emsp;  [WinPEAS](#) &emsp;|&emsp;  [Sysinternals](#) &emsp;|&emsp;  [PowerShell](#) &emsp;|&emsp;  [Windows Exploit Suggester](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [Netcat](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Dirbuster](#)<br />
 
-3. **Local Privilege Escalation Vulnerabilities**: Look for known local privilege escalation vulnerabilities.
-    - ***Tools:***&emsp; [WinPEAS](#), [Windows Exploit Suggester](#), , [PowerShell](#) , [Metasploit](#) , [Nmap](#) , [Netcat](#) , [Exploit-DB](#) , [CVE Details](#) , [MSFvenom](#) , [MSFconsole](#)<br /><br />
+- **Local Privilege Escalation Vulnerabilities**: Look for known local privilege escalation vulnerabilities.
+    - ***Tools:*** &emsp;|&emsp; [WinPEAS](#) &emsp;|&emsp;  [Windows Exploit Suggester](#) &emsp;|&emsp;  [PowerShell](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Netcat](#) &emsp;|&emsp;  [Exploit-DB](#) &emsp;|&emsp;  [CVE Details](#) &emsp;|&emsp;  [MSFvenom](#) &emsp;|&emsp;  [MSFconsole](#)<br />
 
-4. **Scheduled Tasks**: Check for tasks that can be exploited for privilege escalation.
-    - ***Tools:***&emsp; [schtasks](#), [PowerShell](#), , [Sysinternals](#) , [WinPEAS](#) , [Accesschk](#) , [Task Scheduler](#) , [Scheduled Tasks Explorer](#) , [Metasploit](#) , [Nmap](#) , [Netcat](#)<br /><br />
+- **Scheduled Tasks**: Check for tasks that can be exploited for privilege escalation.
+    - ***Tools:*** &emsp;|&emsp; [schtasks](#) &emsp;|&emsp;  [PowerShell](#) &emsp;|&emsp;  [Sysinternals](#) &emsp;|&emsp;  [WinPEAS](#) &emsp;|&emsp;  [Accesschk](#) &emsp;|&emsp;  [Task Scheduler](#) &emsp;|&emsp;  [Scheduled Tasks Explorer](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Netcat](#)<br />
 
-5. **Kerberos Ticket Extraction**: Obtain Kerberos tickets to elevate privileges.
-    - ***Tools:***&emsp; [Rubeus](#), [Mimikatz](#), , [PowerView](#) , [Impacket](#) , [GetNPUsers](#) , [Kerberoast](#) , [Kerbrute](#) , [BloodHound](#) , [PowerSploit](#) , [Metasploit](#)<br /><br />
+- **Kerberos Ticket Extraction**: Obtain Kerberos tickets to elevate privileges.
+    - ***Tools:*** &emsp;|&emsp; [Rubeus](#) &emsp;|&emsp;  [Mimikatz](#) &emsp;|&emsp;  [PowerView](#) &emsp;|&emsp;  [Impacket](#) &emsp;|&emsp;  [GetNPUsers](#) &emsp;|&emsp;  [Kerberoast](#) &emsp;|&emsp;  [Kerbrute](#) &emsp;|&emsp;  [BloodHound](#) &emsp;|&emsp;  [PowerSploit](#) &emsp;|&emsp;  [Metasploit](#)<br />
 
-6. **Service Account Misconfigurations**: Identify misconfigured service accounts.
-    - ***Tools:***&emsp; [PowerView](#), [BloodHound](#), , [WinPEAS](#) , [Nmap](#) , [Netcat](#) , [PowerShell](#) , [Service Account Finder](#) , [Metasploit](#) , [Windows Exploit Suggester](#) , [Sysinternals](#)<br /><br />
+- **Service Account Misconfigurations**: Identify misconfigured service accounts.
+    - ***Tools:*** &emsp;|&emsp; [PowerView](#) &emsp;|&emsp;  [BloodHound](#) &emsp;|&emsp;  [WinPEAS](#) &emsp;|&emsp;  [Nmap](#) &emsp;|&emsp;  [Netcat](#) &emsp;|&emsp;  [PowerShell](#) &emsp;|&emsp;  [Service Account Finder](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [Windows Exploit Suggester](#) &emsp;|&emsp;  [Sysinternals](#)<br />
 
-7. **DLL Hijacking**: Exploit DLL hijacking vulnerabilities for privilege escalation.
-    - ***Tools:***&emsp; [DLL Hijacking](#), [PowerShell](#), , [Sysinternals](#) , [Metasploit](#) , [WinPEAS](#) , [Accesschk](#)
+- **DLL Hijacking**: Exploit DLL hijacking vulnerabilities for privilege escalation.
+    - ***Tools:*** &emsp;|&emsp; [DLL Hijacking](#) &emsp;|&emsp;  [PowerShell](#) &emsp;|&emsp;  [Sysinternals](#) &emsp;|&emsp;  [Metasploit](#) &emsp;|&emsp;  [WinPEAS](#) &emsp;|&emsp;  [Accesschk](#)
+
+- **Kernel Exploits**
+    - ***Tools:*** &emsp;|&emsp; [Windows Kernel Exploits](https://github.com/SecWiki/windows-kernel-exploits)
+
+### 6.3 Automated Tools for Privilege Escalation <br />
+
+- **Unquoted Service Paths**: Identify unquoted service paths that can be exploited.
+    - ***Tools:*** &emsp;|&emsp; [WinPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS) &emsp;|&emsp; [Windows PrivEsc Checklist](https://book.hacktricks.xyz/windows/checklist-windows-privilege-escalation) &emsp;|&emsp; [Sherlock](https://github.com/rasta-mouse/Sherlock) &emsp;|&emsp; [Watson](https://github.com/rasta-mouse/Watson) &emsp;|&emsp; [PowerUp](https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) &emsp;|&emsp; [JAWS](https://github.com/411Hall/JAWS) &emsp;|&emsp; [Windows Exploit Suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester) &emsp;|&emsp; [Metasploit Local Exploit Suggester](https://blog.rapid7.com/2015/08/11/metasploit-local-exploit-suggester-do-less-get-more/) &emsp;|&emsp; [Seatbelt](https://github.com/GhostPack/Seatbelt) &emsp;|&emsp; [SharpUp](https://github.com/GhostPack/SharpUp)
+
+
+## Metasploit Exploitation
+- ***Tools:*** &emsp;|&emsp; [Kitrap0d Information](https://seclists.org/fulldisclosure/2010/Jan/341)
+
+## Manual Kernel Exploitation
+- ***Tools:*** &emsp;|&emsp; [MS10-059 Exploit](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS10-059)
+
+## Gaining a Foothold
+- ***Tools:*** &emsp;|&emsp; [Achat Exploit](https://www.exploit-db.com/exploits/36025) &emsp;|&emsp; [Achat Exploit (Metasploit)](https://www.rapid7.com/db/modules/exploit/windows/misc/achat_bof) &emsp;|&emsp; [Groovy Reverse Shell](https://gist.github.com/frohoff/fed1ffaab9b9beeb1c76)
+
+## Escalation via Stored Passwords
+- ***Tools:*** &emsp;|&emsp; [Plink Download](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
+## Escalation via WSL
+- ***Tools:*** &emsp;|&emsp; [Spawning a TTY Shell](https://netsec.ws/?p=337) &emsp;|&emsp; [Impacket Toolkit](https://github.com/SecureAuthCorp/impacket)
+
+## Potato Attacks
+- ***Tools:*** &emsp;|&emsp; [Rotten Potato](https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/) &emsp;|&emsp; [Juicy Potato](https://github.com/ohpe/juicy-potato)
+
+## Impersonation and Alternate Data Streams
+- ***Tools:*** &emsp;|&emsp; [Alternate Data Streams](https://blog.malwarebytes.com/101/2015/07/introduction-to-alternate-data-streams/)
+
+## getsystem Overview
+- ***Tools:*** &emsp;|&emsp; [What happens when I type getsystem?](https://blog.cobaltstrike.com/2014/04/02/what-happens-when-i-type-getsystem/)
+
+## Startup Applications
+- ***Tools:*** &emsp;|&emsp; [icacls Documentation](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/icacls)
+
+## CVE-2019-1388 Overview
+- ***Tools:*** &emsp;|&emsp; [Zero Day Initiative CVE-2019-1388](https://www.youtube.com/watch?v=3BQKpPNlTSo) &emsp;|&emsp; [Rapid7 CVE-2019-1388](https://www.rapid7.com/db/vulnerabilities/msft-cve-2019-1388)
+
+## Challenge Walkthroughs
+- ***Tools:*** &emsp;|&emsp; [Basic PowerShell for Pentesters](https://book.hacktricks.xyz/windows/basic-powershell-for-pentesters) &emsp;|&emsp; [Mounting VHD Files](https://medium.com/@klockw3rk/mounting-vhd-file-on-kali-linux-through-remote-share-f2f9542c1f25) &emsp;|&emsp; [Capturing MSSQL Credentials](https://medium.com/@markmotig/how-to-capture-mssql-credentials-with-xp-dirtree-smbserver-py-5c29d852f478)
